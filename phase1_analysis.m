@@ -16,7 +16,7 @@ imhist(img_gray)
 title('Histogram')
 
 % calculate basic statistics
-mean_val = mean(double(img_gray(:)));
+mean_val = mean(double(img_gray(:))); % convertit les pixels en tableau 1D de nombres décimaux
 std_val = std(double(img_gray(:)));
 min_val = min(double(img_gray(:)));
 max_val = max(double(img_gray(:)));

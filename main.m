@@ -2,7 +2,7 @@ clear all;
 close all;
 clc;
 % load the image
-img_color = imread('images/view.jfif');
+img_color = imread('peppers.png');
 img_gray = rgb2gray(img_color);
 
 % run phase 1
@@ -16,3 +16,4 @@ phase3_contrast(img_gray);
 
 % run phase 4
 phase4_edges(img_gray);
+
